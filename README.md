@@ -1,3 +1,56 @@
+🧰 Setup Instructions
+Prerequisites
+React
+Go
+Redis
+Backend Setup
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/yourusername/exploding-kitten.git
+cd exploding-kitten
+Navigate to the backend directory:
+
+bash
+Copy code
+cd backend
+Install dependencies:
+
+bash
+Copy code
+go mod tidy
+Run the server:
+
+bash
+Copy code
+go run main.go
+Frontend Setup
+Navigate to the frontend directory:
+
+bash
+Copy code
+cd frontend
+Install dependencies:
+
+bash
+Copy code
+npm install
+Start the development server:
+
+bash
+Copy code
+npm start
+Redis Setup
+Start the Redis server:
+
+bash
+Copy code
+redis-server
+Configure the backend to connect to Redis (update config.yaml or .env with Redis host and port if necessary).
+
+
+
 This will be an online single-player card game that consists of 4 different types of cards
 
 - Cat card 😼
